@@ -13,5 +13,6 @@
          $query = $this->db->get_where($table,$where);  
          return $query;  
       }  
+      
    }  
 ?>  

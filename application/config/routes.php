@@ -53,4 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 
 $route['api/create'] = 'Department/create';
+$route['api/employee'] = 'Employee/create';
 $route['translate_uri_dashes'] = FALSE;
