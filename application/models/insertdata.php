@@ -34,7 +34,7 @@
     
      return $this->upsert($data,$table,$where);
    }  
-   public function delete(array $data,$table,$where=null)  
+   public function delete($table,$where=null)  
    {  
    
       $this->db->where($where[0],$where[1]);

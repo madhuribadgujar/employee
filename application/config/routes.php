@@ -54,4 +54,7 @@ $route['404_override'] = '';
 
 $route['api/create'] = 'Department/create';
 $route['api/employee'] = 'Employee/create';
+$route['api/deleteEmp'] = 'Employee/deleteEmp';
+
+$route['api/view'] = 'Employee/view';
 $route['translate_uri_dashes'] = FALSE;
